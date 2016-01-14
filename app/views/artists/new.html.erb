@@ -1,0 +1,19 @@
+<div class="container">
+<h1>New Artist</h1>
+
+<%= form_for :artist, url: artists_path do |f| %>
+  <p>
+    <%= f.label :Name %><br>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :Genre %><br>
+    <%= f.select :genre, ['Rock', 'Country', 'Pop'] %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+</div>

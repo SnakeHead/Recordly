@@ -1,0 +1,18 @@
+<div class="container">
+<h1>Artists</h1><a href="artists/new"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+
+
+<table class="table table-bordered">
+  <tr>
+    <th>Artist Name</th>
+    <th>Genre</th>
+  </tr>
+
+  <% @artists.each do |artist| %>
+    <tr>
+      <td><%= artist.name %></td>
+      <td><%= artist.genre %></td>
+    </tr>
+  <% end %>
+</table>
+</div>
