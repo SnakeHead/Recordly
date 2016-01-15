@@ -17,5 +17,7 @@ While this very basic (and incomplete) application will run, this README discuss
 - I would also create a database table to contain the genre in order to dynamically populate the genre dropdowns within the app.
   - {Optionally} provide a way to edit the Genres.
 
+- Perform unit testing of the application.
+
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
