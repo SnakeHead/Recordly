@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+While this very basic (and incomplete) application will run, this README discusses what I would do to complete the task.
+** Note that I was asked to only spend an hour on the application. **
 
-Things you may want to cover:
+- Create a better user experience (navigation / flow) for the application.
+  - Better navigation.
+  - For example, when viewing an artist, I should be able to view their albums and list of songs.
 
-* Ruby version
+- Create the controllers and views for albums and songs and their related models.
+  - Ensure that the data is related - Artists has many Albums and Albums has many songs.
 
-* System dependencies
+- Ensure data validation on all the input forms - ie: no blank records should be created, etc.
 
-* Configuration
+- Add ability to mark "favorites" (Artists, Albums, & Songs).
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+- I would also create a database table to contain the genre in order to dynamically populate the genre dropdowns within the app.
+  - {Optionally} provide a way to edit the Genres.
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
